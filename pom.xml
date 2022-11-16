@@ -24,15 +24,16 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <helm-maven-plugin.version>6.6.0</helm-maven-plugin.version>
+    <docker-maven-plugin.version>0.36.1</docker-maven-plugin.version>
+    <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
 
-    <jnats.version>2.16.3</jnats.version>
+    <jnats.version>2.16.4</jnats.version>
     <lombok.version>1.18.24</lombok.version>
     <microprofile-health-api.version>4.0.1</microprofile-health-api.version>
     <quarkus-logging-splunk.version>2.4.0</quarkus-logging-splunk.version>
     <quarkus.version>2.13.3.Final</quarkus.version>
     <apache-collections.version>4.4</apache-collections.version>
 
-    <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
     <nats-embedded.version>2.1.0</nats-embedded.version>
     <spring-beans.version>5.3.23</spring-beans.version>
   </properties>
@@ -182,7 +183,7 @@
        <plugin>
           <groupId>io.fabric8</groupId>
           <artifactId>docker-maven-plugin</artifactId>
-          <version>0.36.1</version>
+          <version>${docker-maven-plugin.version}</version>
           <configuration>
             <images>
               <image>
