@@ -52,7 +52,7 @@
     <apache-collections.version>4.4</apache-collections.version>
 
     <nats-embedded.version>2.1.0</nats-embedded.version>
-    <spring-beans.version>5.3.24</spring-beans.version>
+    <spring-beans.version>6.0.4</spring-beans.version>
   </properties>
   <dependencyManagement>
     <dependencies>
