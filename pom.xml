@@ -45,7 +45,7 @@
     <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
     <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
 
-    <jnats.version>2.20.2</jnats.version>
+    <jnats.version>2.20.5</jnats.version>
     <lombok.version>1.18.34</lombok.version>
     <microprofile-health-api.version>4.0.1</microprofile-health-api.version>
     <quarkus-logging-splunk.version>3.3.0</quarkus-logging-splunk.version>
